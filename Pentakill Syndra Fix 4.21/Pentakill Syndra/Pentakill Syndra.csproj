@@ -39,13 +39,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeagueSharp">
-      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\LeagueSharp.dll</HintPath>
+      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\LeagueSharp.dll</HintPath>
     </Reference>
     <Reference Include="LeagueSharp.Common">
-      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\LeagueSharp.Common.dll</HintPath>
+      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\LeagueSharp.Common.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\SharpDX.dll</HintPath>
+      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

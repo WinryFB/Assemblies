@@ -8,8 +8,9 @@ using LeagueSharp.Common;
 using SharpDX;
 using Color = System.Drawing.Color;
 
-namespace Syndra
+namespace Pentakill_Syndra
 {
+ 
     class Program
     {
         public const string ChampionName = "Syndra";
