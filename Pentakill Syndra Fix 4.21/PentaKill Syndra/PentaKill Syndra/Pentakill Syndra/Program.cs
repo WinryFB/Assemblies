@@ -7,9 +7,8 @@ using LeagueSharp;
 using LeagueSharp.Common;
 using SharpDX;
 using Color = System.Drawing.Color;
-// By WinryFanBoy, Credits to 
 
-namespace Wfb_Syndra
+namespace Syndra
 {
     class Program
     {
@@ -92,23 +91,23 @@ namespace Wfb_Syndra
 
             //Combo menu:
             Config.AddSubMenu(new Menu("Combo", "Combo"));
-            Config.SubMenu("Combo").AddItem(new MenuItem("UseQCombo", "Use Q ?").SetValue(true));
-            Config.SubMenu("Combo").AddItem(new MenuItem("UseWCombo", "Use W ?").SetValue(true));
-            Config.SubMenu("Combo").AddItem(new MenuItem("UseECombo", "Use E ?").SetValue(true));
-            Config.SubMenu("Combo").AddItem(new MenuItem("UseQECombo", "Use QE ?").SetValue(true));
-            Config.SubMenu("Combo").AddItem(new MenuItem("UseRCombo", "Use R ?").SetValue(true));     
+            Config.SubMenu("Combo").AddItem(new MenuItem("UseQCombo", "Use Q").SetValue(true));
+            Config.SubMenu("Combo").AddItem(new MenuItem("UseWCombo", "Use W").SetValue(true));
+            Config.SubMenu("Combo").AddItem(new MenuItem("UseECombo", "Use E").SetValue(true));
+            Config.SubMenu("Combo").AddItem(new MenuItem("UseQECombo", "Use QE").SetValue(true));
+            Config.SubMenu("Combo").AddItem(new MenuItem("UseRCombo", "Use R").SetValue(true));     
             Config.SubMenu("Combo").AddItem(new MenuItem("AntiOverkillCombo", "Save R if enemy is killable with Q").SetValue(true));
             Config.SubMenu("Combo").AddItem(new MenuItem("ComboActive", "Combo!").SetValue(new KeyBind(Config.Item("Orbwalk").GetValue<KeyBind>().Key, KeyBindType.Press)));
 
             //Harass menu:
             Config.AddSubMenu(new Menu("Harass", "Harass"));
-            Config.SubMenu("Harass").AddItem(new MenuItem("UseQHarass", "Use Q ?").SetValue(true));
-            Config.SubMenu("Harass").AddItem(new MenuItem("UseWHarass", "Use W ?").SetValue(false));
-            Config.SubMenu("Harass").AddItem(new MenuItem("UseEHarass", "Use E ?").SetValue(false));
-            Config.SubMenu("Harass").AddItem(new MenuItem("UseQEHarass", "Use QE ?").SetValue(false));
-            Config.SubMenu("Harass").AddItem(new MenuItem("AutoHarass", "Auto harass when enemy do AA ?").SetValue(true));
+            Config.SubMenu("Harass").AddItem(new MenuItem("UseQHarass", "Use Q").SetValue(true));
+            Config.SubMenu("Harass").AddItem(new MenuItem("UseWHarass", "Use W").SetValue(false));
+            Config.SubMenu("Harass").AddItem(new MenuItem("UseEHarass", "Use E").SetValue(false));
+            Config.SubMenu("Harass").AddItem(new MenuItem("UseQEHarass", "Use QE").SetValue(false));
+            Config.SubMenu("Harass").AddItem(new MenuItem("AutoHarass", "Auto harass when enemy do AA").SetValue(true));
             Config.SubMenu("Harass").AddItem(new MenuItem("HarassActive", "Harass!").SetValue(new KeyBind("C".ToCharArray()[0], KeyBindType.Press)));
-            Config.SubMenu("Harass").AddItem(new MenuItem("HarassActiveT", "Harass (toggle)!").SetValue(new KeyBind("N".ToCharArray()[0],KeyBindType.Toggle)));
+            Config.SubMenu("Harass").AddItem(new MenuItem("HarassActiveT", "Harass (toggle)!").SetValue(new KeyBind("Y".ToCharArray()[0],KeyBindType.Toggle)));
 
             Config.AddSubMenu(new Menu("Ultimate", "Ultimate"));
             Config.SubMenu("Ultimate").AddSubMenu(new Menu("Dont use R on", "DontUlt"));
@@ -154,7 +153,7 @@ namespace Wfb_Syndra
             AntiGapcloser.OnEnemyGapcloser += AntiGapcloser_OnEnemyGapcloser;
             Orbwalking.BeforeAttack += Orbwalking_BeforeAttack;
 
-            Game.PrintChat("<font color='#08F5F8'>Wfb_Syndra by WinryFanBoy</font> - <font color=\"#FFFFF\">Loaded</font>");
+            Game.PrintChat("Pentakill Syndra Loaded!");
         }
 
         static void Orbwalking_BeforeAttack(Orbwalking.BeforeAttackEventArgs args)

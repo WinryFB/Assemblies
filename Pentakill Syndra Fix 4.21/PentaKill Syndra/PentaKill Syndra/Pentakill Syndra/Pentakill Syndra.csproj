@@ -7,8 +7,8 @@
     <ProjectGuid>{94D35ED3-3416-4466-B0CB-FF9688403CAF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wfb_Syndra</RootNamespace>
-    <AssemblyName>Wfb_Syndra</AssemblyName>
+    <RootNamespace>Pentakill_Syndra</RootNamespace>
+    <AssemblyName>Pentakill Syndra</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PreBuildEvent />
@@ -35,17 +35,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Wfb_Syndra.Program</StartupObject>
+    <StartupObject>Pentakill_Syndra.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeagueSharp">
-      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\LeagueSharp.dll</HintPath>
+      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\LeagueSharp.dll</HintPath>
     </Reference>
     <Reference Include="LeagueSharp.Common">
-      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\LeagueSharp.Common.dll</HintPath>
+      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\LeagueSharp.Common.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>C:\Users\Sushikiry\Documents\MABITE\LeagueSharp\\System\SharpDX.dll</HintPath>
+      <HintPath>C:\Users\rythimy\Desktop\LeagueSharp\\System\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
