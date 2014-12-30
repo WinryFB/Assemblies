@@ -7,8 +7,8 @@
     <ProjectGuid>{94D35ED3-3416-4466-B0CB-FF9688403CAF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pentakill_Syndra</RootNamespace>
-    <AssemblyName>Pentakill Syndra</AssemblyName>
+    <RootNamespace>Wfb_Syndra</RootNamespace>
+    <AssemblyName>Wfb_Syndra</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PreBuildEvent />
@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Pentakill_Syndra.Program</StartupObject>
+    <StartupObject>Wfb_Syndra.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeagueSharp">
